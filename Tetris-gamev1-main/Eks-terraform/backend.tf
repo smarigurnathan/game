@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "smari-super-mario" 
-    key    = "Jenkins/terraform.tfstate"
+    key    = "EKS/terraform.tfstate"
     region = "ap-south-1"
   }
 }
